@@ -1,3 +1,10 @@
+// function a(){
+//     const namei=n
+//     console.log(namei)
+// }
+// console.log(name)
+
+
 // function syhi(name){
 //     return name.toUpperCase();
     
@@ -21,9 +28,9 @@
 // my_function()
 //מצביע ומגדיר
 // const my=function a(){
-//     consol.log("hi")
+//     console.log("hi")
 // }
-// console.log(my_function)
+// my()
 
 
 //עוד דרך לכתוב בקיצור
@@ -81,7 +88,6 @@
 // }
 // a()
 //-------------------
-
 // console.log(name)
 // const name="lll"
 //-------------------
@@ -96,6 +102,7 @@
 // nams.forEach((el)=>{console.log(`el:${el}`)})
 //ארגון מאחורי הקלאים הפעלה על כול איבר ואחכ אני  אומר לו שאני רוצה לראות
 // nams.forEach(print_valu)
+// const nams=["a","b"]
 // function fh(vul){
 //    console.log(vul)
 // }
@@ -105,6 +112,7 @@
 // }
 // }
 // my(nams,fh)
+
 //--------------------- 
 // const nums=[1,3]
 // const newnums= nums.map((s)=>{
@@ -114,7 +122,7 @@
 //---------------
 // const nums=[0,1,3,4]
 // newarr= nums.filter((num)=>{
-//     return num>=0
+//     return num>-1
 // })
 // console.log(newarr)
 // ---------------------
@@ -126,11 +134,11 @@
 // const by5=MoltiFactory(5);
 // by5(10);
 // const by6=MoltiFactory(6)
-// by6(10)
+// by6(1)
 
 
 // function MoltiFactoryNums(num1,num2,num3,num4){
-//    return function (num2){
+//    return function (num4){
 //     console.log(num1*num2*num3*num4) 
 //    }
 // }
@@ -138,6 +146,28 @@
 // a(5)
 // a(2)
 //////
+/**
+ * 1. CREATE a function factory => function that returns a function - V
+ * 2. factory gets spell name - V
+ * 3. inner function prints this name - V
+ * 4. inner function prints power level - V
+ * 5. each factory use - add 1 to power - V
+ * 6. inner function should print the power when it was created 
+ */
+
+// function spellFactory(spellName){
+//     let power = 1;
+//      return fn = ()=>{
+//         console.log(`spell name: ${spellName}, power: ${power}`)
+//         power+=1;
+//     }
+//     return fn;
+// }
+// const spell1 = spellFactory("fire") 
+// spell1(); 
+// const spell2 = spellFactory("ice") 
+// spell2();  
+
 
 
 

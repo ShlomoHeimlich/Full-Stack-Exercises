@@ -82,4 +82,46 @@
 //     console.log(new_str)
 // }
 // cheng('aaa bbb ccc')
+/**
+ * 1. CREATE a function factory => function that returns a function - V
+ * 2. factory gets spell name - V
+ * 3. inner function prints this name - V
+ * 4. inner function prints power level - V
+ * 5. each factory use - add 1 to power - V
+ * 6. inner function should print the power when it was created 
+ */
+
+// function spellFactory(spellName){
+//     let power=0;
+//     power+=1;
+//     const fn = ()=>{
+//         console.log(`spell name: ${spellName}, power: ${power}`)
+//     }
+//     return fn;
+// }
+// const spell1 = spellFactory("fire") 
+// spell1(); 
+// const spell2 = spellFactory("ice") 
+// spell2(); 
+ 
+
+
+
+
+
+///////////////////
+// let family = { 
+//     parents: {},
+//     children: [ {name: 'Ali'}, {name: 'Lea'}, {name: 'Mona'} ] 
+// };
+
+// console.log(family.children[2])
+// let str = '';
+// for(item i)
+// family.children.forEach(str+=)
+// str =+
+// console.log()
+
+
+////////////////////////////////
 

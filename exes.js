@@ -32,12 +32,13 @@
 // }
 // console.log(nams)
 // -------------------
-// let a=['a','b','c']
-//  for(let i=0;i<a.length-1;i++){
-//      let b=a.shift()
-//      a.push(b)
-// }
-// console.log(a)
+let a=['a','b','c']
+ for(let i=0;i<a.length-1;i++){
+     let b=a.shift()//c
+     a.push(b)//a,b,c
+}
+console.log(a)
+
 // -----------------------
 // let bool=0
 // let int=0
