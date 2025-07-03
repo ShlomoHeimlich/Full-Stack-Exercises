@@ -1,8 +1,8 @@
 // import { readFile } from 'node:fs';
-import { log } from 'node:console';
-import { readFile, stat, readdir } from 'node:fs/promises';
-import path from 'node:path';
-///1
+// import { log } from 'node:console';
+// import { readFile, stat, readdir } from 'node:fs/promises';
+// import path from 'node:path';
+// /1
 // function readFilePromise(path) {
 //     return new Promise((res, rej) => {
 //         readFile(path, "utf8", (err, data) => {
@@ -15,7 +15,7 @@ import path from 'node:path';
 // readFilePromise("file1.txt")
 //     .then(res => { console.log(res); })
 //     .catch(err => { console.log(err); });
-//////2
+// ////2
 // async function readFileAsync(path){
 //     try{
 //     const a= await readFile(path,"utf8")
@@ -26,7 +26,7 @@ import path from 'node:path';
 // }
 // const a=await readFileAsync("fil.txt")
 // console.log(a);
-/////////////3
+// ///////////3
 // async function getFileSize(path){
 //   try{
 //     const stats =await stat(path)
@@ -37,7 +37,7 @@ import path from 'node:path';
 // }
 // const a=await getFileSize("file1.txt")
 // console.log(a);
-/////////4
+// ///////4
 // async function listFiles(directory) {
 //     try {
 //         const files = await readdir(directory)
@@ -48,7 +48,7 @@ import path from 'node:path';
 // }
 // const a = await listFiles(path.resolve('./'))
 // console.log(a);
-///////////5
+// /////////5
 // async function readFilesInOrder(files) {
 //     for (const file of files) {
 //         try {
@@ -63,7 +63,7 @@ import path from 'node:path';
 // const a = await readFilesInOrder(['file1.txt', 'db.txt',])
 
 
-/////////////////////6
+// ///////////////////6
 // async function readFilesParallel(files) {
 //     try {
 //         const contents = await Promise.all(files.map(file => readFile(file, 'utf8')))
